@@ -375,7 +375,7 @@ resized_roast=roasted_chick_image.resize(resize)
 photo2=ImageTk.PhotoImage(resized_roast)
 roasted_chick=ttk.Button(food_1,image=photo2,command=btn_roast_chick)
 roasted_chick_price=ctk.CTkLabel(food_1,text='$ 1.50')
-roasted_chick.pack(fill='both')
+roasted_chick.pack(expand=True,fill='both')
 roasted_chick_price.pack(fill='x',padx=5)
 
 
@@ -433,7 +433,7 @@ resized_roast=russian_sas_image.resize(resize)
 photo8=ImageTk.PhotoImage(resized_roast)
 russian_sas=ttk.Button(food_3,image=photo8,command=btn_russian_sausage)
 russian_sas_price=ctk.CTkLabel(food_3,text='$ 2.00')
-russian_sas.pack(fill='both')
+russian_sas.pack(expand=True,fill='both')
 russian_sas_price.pack(fill='x',padx=5)
 
 
